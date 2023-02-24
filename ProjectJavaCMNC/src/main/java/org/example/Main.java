@@ -108,7 +108,7 @@ public class Main {
         2. calcular el umpuesto de tenencia y el impuesto de tenencia de lo que vale el carro (1.3%)
          */
 
-        Scanner scanner1 = new Scanner(System.in);
+     /*   Scanner scanner1 = new Scanner(System.in);
         String nombre;
         String apellido;
         String domicilio;
@@ -134,7 +134,19 @@ public class Main {
         System.out.println("tu apellido es:" + apellido);
         System.out.println("tu domicilio es:" + domicilio);
         System.out.println("precio del carro:" + precioCarro);
-        System.out.println("tu impuesto de tenencia de carro es:" + impuestoquetengoquepagar);
+        System.out.println("tu impuesto de tenencia de carro es:" + impuestoquetengoquepagar);*/
+
+        int a = 10;
+        int b = 5;
+        int c = 3;
+
+        if(a>b){
+            System.out.println("a es mayor que b");
+
+        }else{
+            System.out.println("a no es mayor que b");
+
+        }
 
 
 
