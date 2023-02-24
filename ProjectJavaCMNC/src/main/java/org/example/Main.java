@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println("Mi numero que acabo de ingresar es: " + numero);*/
 
-       // int numero = 0;
+        // int numero = 0;
 
         //Desarrollar un programa en java que lea 2 numeros, los sume y me muestre el resultado
 
@@ -43,7 +43,7 @@ public class Main {
                 peso / altura^2
                 */
 
-        Scanner scanner1 = new Scanner(System.in);
+       /* Scanner scanner1 = new Scanner(System.in);
         String nom;
         String fechaNacimiento;
         int edad;
@@ -69,7 +69,72 @@ public class Main {
         System.out.println("tu edad " + edad);
         System.out.println("tu peso: " + peso);
         System.out.println("tu altura " + altura);
-        System.out.println("tu IMC " + imc);
+        System.out.println("tu IMC " + imc);*/
+
+    /*desarrollar un programa que le pida al usuario su nombre, apeellido, domicilio, cuanto que cotizó en el 2022,
+    cuanto impuesto va apagar.
+    declarar constante de ISR.
+     */
+
+
+       /* Scanner scanner1 = new Scanner(System.in);
+        String nombre;
+        String apellido;
+        String domicilio;
+        double cotizacion2022;
+        double impuestoApagar;
+        final double ISR =0.12;
+
+        System.out.println("Ingresa tu nombre:");
+        nombre = scanner1.nextLine();
+        System.out.println("Ingresa tu apellido:");
+        apellido = scanner1.nextLine();
+        System.out.println("Ingresa tu domicilio:");
+        domicilio = scanner1.nextLine();
+        System.out.println("Ingresa tu cotizacion del 2022:");
+        cotizacion2022 = scanner1.nextDouble();
+
+
+        impuestoApagar = cotizacion2022*ISR;
+
+        System.out.println("tu nombre es: " + nombre);
+        System.out.println("tu apellido es: " + apellido);
+        System.out.println("tu domicilio es: " + domicilio);
+        System.out.println("tu cotizacion es: " + cotizacion2022);
+        System.out.println("tu impuesto es: " + impuestoApagar);*/
+
+
+        /* 1.pedir al usuario su nombre, apellido, su domicio y el precio de su carro
+        2. calcular el umpuesto de tenencia y el impuesto de tenencia de lo que vale el carro (1.3%)
+         */
+
+        Scanner scanner1 = new Scanner(System.in);
+        String nombre;
+        String apellido;
+        String domicilio;
+        double precioCarro;
+        final double impuestoTenenciaCarro =0.013;
+
+
+        double impuestoquetengoquepagar; //declarar variables para las operaciones que voy a realizar no guardarlas en constantes ni varibles que ya tienen un proposito
+
+        System.out.println("Ingresa tu nombre:");
+        nombre = scanner1.nextLine();
+        System.out.println("Ingresa tu apellido:");
+        apellido = scanner1.nextLine();
+        System.out.println("Ingresa tu domicilio:");
+        domicilio = scanner1.nextLine();
+        System.out.println("ingresa precio de carro:");
+        precioCarro = scanner1.nextDouble();
+
+
+        impuestoquetengoquepagar = impuestoTenenciaCarro*precioCarro;
+
+        System.out.println("tu nombre es:" + nombre);
+        System.out.println("tu apellido es:" + apellido);
+        System.out.println("tu domicilio es:" + domicilio);
+        System.out.println("precio del carro:" + precioCarro);
+        System.out.println("tu impuesto de tenencia de carro es:" + impuestoquetengoquepagar);
 
 
 
