@@ -7,9 +7,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
 
-
-
-
         //desarrollar un programa que le pregunte al usuario 3 numeros
         //y decirle cual es mayor de los 3.
 
@@ -45,13 +42,27 @@ public class Main {
         if (num1 == num2 && num1 == num3 && num1 == num4){
             System.out.println("los numeros son iguales");
         }*/
-        for (int i=0; i < 10; i++){
-            System.out.println("i vale: " + i);
+
+        /*int edad;
+
+
+        for (int i = 0; i < 4; i++) {
+
+            System.out.println("ingresa tu edad: ");
+            edad = scanner.nextInt();
+            if (edad > 17) {
+                System.out.println("eres un anciano");
+            } else {
+                System.out.println("eres un morro");
+            }*/
+
+        double myArray
+                Double[] = new double[7]
+        for (int i = 0; i<7; i++){
+
+            miArray Double[i] = scanner
+
+
         }
-
-
-
-
-
     }
 }
