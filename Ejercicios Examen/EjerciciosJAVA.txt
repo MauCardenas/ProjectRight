@@ -1,0 +1,180 @@
+1.Escribe un programa en Java que tome un número entero y determine si es par o impar.
+
+Scanner miescaner = new Scanner(System.in);
+
+int numero;
+
+System.out.print("Ingresa un numero entero: ");
+numero = miescaner.nextInt();
+
+if(numero % 2 == 0){
+      System.out.print("El numero es par");
+}
+else{
+   System.out.print("El numero es impar");
+}
+    
+
+ 
+
+2.Escribe un programa en Java que tome dos números enteros y determine cuál es el mayor de los dos.
+
+Scanner miescaner = new Scanner(System.in);
+int numero1;
+int numero2;
+
+System.out.print("Ingresa el primer numero");
+numero1 = miescaner.nextInt();
+
+System.out.print("Ingresa el segundo numero");
+numero2 = miescaner.nextInt();
+
+if(numero1>numero2){
+    System.out.print("El numero mayor es: "+numero1);
+}else{
+    System.out.print("El numero mayor es: "+numero2);
+}
+
+3.Escribe un programa en Java que tome un número entero y determine si es negativo, positivo o cero.
+
+Scanner miescaner = new Scanner(System.in);
+
+int numero;
+
+System.out.print("ingresa un numero entero: ");
+numero = miescaner.nextInt();
+
+if(numero<0){
+     System.out.print("el numero es negativo");
+}
+else{
+    System.out.print("el numero es positivo");
+}
+if(numero==0){
+     System.out.print("el numero es un cero")
+}
+
+
+4.Escribe un programa en Java que tome un número entero y determine si es primo o no.
+
+Scanner miescaner = new Scanner(System.in);
+
+int numero;
+int suma = 0;
+
+System.out.print("ingresa un numero que sea entero: ");
+numero = miescaner.nextInt();
+
+for(int i=1; i<numero; i++){
+    int residuo = numero%i;
+
+    if(residuo == 0){
+         suma = suma+1;
+   }
+}
+
+if(suma <=2){
+   System.out.print("el numero es primo");
+}
+else{
+   System.out.print("el numero no es primo");
+}  
+
+
+5.Escribe un programa en Java que tome un número entero y determine si es divisible por 3 o no.
+
+Scanner miescaner = new Scanner(System.in);
+
+int numero;
+
+System.out.print("ingresa un numero que sea entero: ");
+numero = miescaner.nextInt();
+
+if (numero % 3 == 0) {
+	System.out.println("el numero si se puede dividir entre 3");
+} 
+else {
+	System.out.println("el numero no se puede dividir entre 3");
+}
+
+
+6.Escribe un programa en Java que tome un número entero y determine si es un número perfecto o no.
+
+  Scanner miescaner = new Scanner(System.in);
+
+int num, suma = 0, i;
+      
+System.out.println("ingresa un numero: ");
+num = miescaner.nextInt();
+
+for (i = 1; i < num; i++) {                           
+    if (num % i == 0) {
+         suma = suma + i;  
+    }
+}
+   if (suma == num) {                          
+         System.out.println("El numero es perfecto");
+   } else {
+       System.out.println("El numero no es perfecto");
+
+      }
+
+
+7.Escribe un programa en Java que tome un año y determine si es un año bisiesto o no.
+
+Scanner miescaner = new Scanner(System.in);
+
+int anio;
+
+System.out.println("ingresa un año: ");
+anio = miescaner.nextInt();
+
+if ((anio % 4 == 0) && ((anio % 100 != 0) || (anio % 400 == 0))){
+	System.out.println("el año si es bisiesto");
+}else{
+	System.out.println("El año no es bisiesto");
+}
+
+
+8.Escribe un programa en Java que tome un carácter y determine si es una vocal o no.
+
+Scanner miescaner = new Scanner(System.in);
+
+char vocal;
+
+System.out.println("ingresa un carácter: ");
+vocal = miescaner.nextChar();
+
+if(vocal = a or vocal = e or vocal = i or vocal = o or vocal = u){
+    System.out.println("el caracter es una vocal");
+}else{
+    System.out.println("el caracter no es una vocal");
+}
+
+
+12.Escribe un programa en Java que tome tres números enteros y determine cuál es el mayor de los tres.
+
+Scanner miescaner = new Scanner(System.in);
+
+int num1;
+int num2;
+int num3;
+
+System.out.println("ingresa el primer numero ");
+num1 = miescaner.nextInt();
+
+System.out.println("ingresa el segundo numero ");
+num2 = miescaner.nextInt();
+
+System.out.println("ingresa el tercer numero ");
+num3 = miescaner.nextInt();
+
+if(num1>num2 && num1>num3){
+      System.out.println("el primer numero es mayor");
+}
+if(num2>num1 && num2>num3){
+      System.out.println("el segundo numero es mayor");
+}
+if(num3>num1 && num3>num2){
+      System.out.println("el tercer numero es mayor");
+}
