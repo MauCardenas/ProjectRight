@@ -1,0 +1,7 @@
+Breanch: permiten crear, enumerar y eliminar ramas, así como cambiar su nombre. No te permite cambiar entre ramas o volver a aunir un historial bifurcado.
+
+Fetch: comandoprincipal que usa para descargar contenidos desde un repositorio remoto, este se usa en combinación con git remote, branch, checkout y reset.
+
+Merge: permite tomar las lineas independientes de desarrollo creadas por git branch e integrarlas en una sola rama.
+
+Pull: sincroniza el contenido remoto.
